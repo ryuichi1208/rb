@@ -31,7 +31,7 @@ for num in 18...20 do
   print("num = ", num, "¥n")
 end
 
-print("¥"Ax¥"..¥"Bc¥" is ¥n")
-for str in "Ax".."Bb" do
-  print("str = " + str + "¥n")
-end
+range = 1..5
+range.each { |c|
+  puts c
+}
