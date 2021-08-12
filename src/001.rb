@@ -31,3 +31,16 @@ ccc
 TEXT
 
 puts "#{b}"
+
+puts STDIN
+puts STDOUT
+puts STDERR
+puts ENV
+puts ARGF
+puts ARGV
+puts DATA
+puts TOPLEVEL_BINDING
+puts RUBY_VERSION
+puts RUBY_RELEASE_DATE
+puts RUBY_PLATFORM
+puts RUBY_PATCHLEVEL
