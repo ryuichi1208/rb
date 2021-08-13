@@ -1,0 +1,17 @@
+#!/bin/bash
+
+build_in_tree()
+{
+	make $MAKE_OPTS
+}
+
+build_out_tree()
+{
+	cd $BUILD_DIR
+	make $MAKE_OPTS_OUT_TREE
+}
+
+test_in_tree()
+{
+	make $1
+}
