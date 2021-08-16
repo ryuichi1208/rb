@@ -21,3 +21,5 @@ threads << Thread.fork { time2() }
 puts "main: #{Time.now.strftime("%H時%M分%S秒")}"
 threads << Thread.fork { time2() }
 threads.each { |thr| thr.join }
+
+(1..3).each {|i| p syscall(102)}
